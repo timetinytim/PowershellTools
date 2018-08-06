@@ -3,6 +3,8 @@
     Processes & disables old AD accounts.
 
     .DESCRIPTION
+    This script is designed for a very specific use case.
+
     When users leave (usually interns) it's important for their AD entries to
     be dealt with properly. They need to be removed from all groups but one,
     the need to be moved to a new OU, and they need to be disabled.
